@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diagrama de Flujo Vertical del Método de Ensamble</title>
+    <!-- Incluye Mermaid desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+
+<!-- Define el gráfico de Mermaid -->
+<div class="mermaid">
+graph TD
+    A[Inicio] --> B[Cargar el Conjunto de Datos]
+    B --> C[Explorar y Visualizar Datos]
+    C --> D[Preprocesamiento de Datos]
+    D --> E[Dividir Datos en Entrenamiento y Prueba]
+    E --> F[Ajustar Hiperparámetros]
+    F -->|Bosques Aleatorios| G1[Entrenar Modelo RF]
+    F -->|XGBoost| G2[Entrenar Modelo XGB]
+    G1 --> H[Ensamble de Modelos]
+    G2 --> H
+    H --> I[Predicción y Evaluación]
+    I --> J[Análisis de Importancia de Características]
+    J --> K[Optimización y Ajuste Final]
+    K --> L[Validación del Modelo]
+    L --> M[Fin]
+
+style B fill:#f9f,stroke:#333,stroke-width:4px
+style C fill:#cfc,stroke:#333,stroke-width:4px
+style D fill:#ccf,stroke:#333,stroke-width:4px
+style E fill:#fcf,stroke:#333,stroke-width:4px
+style H fill:#cff,stroke:#333,stroke-width:4px
+style L fill:#ffc,stroke:#333,stroke-width:4px
+</div>
+
+</body>
+</html>
+
+
