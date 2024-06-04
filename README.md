@@ -46,35 +46,26 @@ Para ejecutar este proyecto, necesitarás tener instalado Python y las siguiente
 `git clone https://github.com/FelipeOrtiz-Clavijo/prediccionintencioncompra.git`
 `cd prediccionintencioncompra`
 
-bash
-Copy code
-git clone https://github.com/FelipeOrtiz-Clavijo/prediccionintencioncompra.git
-cd prediccionintencioncompra
-Instala las dependencias:
+**Instala las dependencias:**
 
-bash
-Copy code
-pip install -r requirements.txt
-Uso
-Abre el notebook de Jupyter:
+`pip install -r requirements.txt`
 
-bash
-Copy code
-jupyter notebook
+**Abre el notebook de Jupyter:**
+
 Navega al archivo prediccion_intencion_compra.ipynb y sigue las instrucciones paso a paso para ejecutar el análisis y entrenar los modelos.
 
-Resultados
+**Resultados**
+
 Los resultados incluyen las métricas de evaluación de los modelos, la comparación entre diferentes técnicas de aprendizaje de máquina y el análisis de las variables más importantes que influyen en la intención de compra.
 
-Contribuciones
+**Contribuciones**
+
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerir mejoras o correcciones.
 
-Contacto
+**Contacto**
+
 Para preguntas o comentarios, puedes contactar a Luis Felipe Ortiz-Clavijo a través del correo: luortizcl@unal.edu.co
 
-
-Actualmente las extensiones .ipybn presentan fallos en su visulización por una incompatibilidad con el visor de GitHub, un error ocasionado por la versión del nbformat v5.10.4 
-
-Repositorio completo disponibles en: 
+Tambien disponible en: 
 
 https://sites.google.com/view/metodopredictivocompra/
