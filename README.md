@@ -1,4 +1,4 @@
- # **Predicción de la Intención de Compra**
+ # **Método para la predicción de la intención de compra de los usuarios en línea utilizando técnicas de aprendizaje de máquina**
 
 Este proyecto tiene como objetivo desarrollar y validar un método para predecir la intención de compra de los usuarios en línea utilizando técnicas de aprendizaje de máquina. Se emplean técnicas como Bosques Aleatorios y XGBoost para construir un modelo predictivo robusto.
 
