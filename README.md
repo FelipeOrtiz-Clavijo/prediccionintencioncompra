@@ -66,6 +66,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request p
 
 Para preguntas o comentarios, puedes contactar a Luis Felipe Ortiz-Clavijo a través del correo: luortizcl@unal.edu.co
 
-Tambien disponible en: 
 
-https://sites.google.com/view/metodopredictivocompra/
