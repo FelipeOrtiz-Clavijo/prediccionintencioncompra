@@ -5,7 +5,7 @@ Este proyecto tiene como objetivo desarrollar y validar un método para predecir
 **Descripción del Proyecto**: El comercio electrónico ha experimentado un crecimiento exponencial, y la capacidad de predecir la intención de compra de los usuarios se ha vuelto crucial para mejorar las estrategias de marketing y aumentar las ventas. Este proyecto aborda este desafío desarrollando un método predictivo basado en el comportamiento de los usuarios en sitios de comercio electrónico.
 
 **Dataset Utilizado**
-- Online Shoppers Behavior Prediction Dataset: DOI: 10.24432/C5F88Q
+- [Online Shoppers Behavior Prediction Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset)
 
 
 **Estructura del Proyecto**: El proyecto está estructurado en varias etapas, incluyendo la selección del conjunto de datos, el preprocesamiento de datos, la implementación de modelos de aprendizaje de máquina y la validación del modelo.
